@@ -4,7 +4,7 @@ const app = express()
 app.get('/', (req, res) => {
   res.json({
       "name":"the best api you ever witnessed",
-      "data": [1,2,3,4,5,6]
+      "data": [1,2,3,4,5,6,8]
   })
 })
 
